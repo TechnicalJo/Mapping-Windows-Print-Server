@@ -1,0 +1,3 @@
+Set objNetwork = CreateObject("Wscript.Network")
+objNetwork.AddWindowsPrinterConnection "\\NAMEOFPRINTSERVER\NAMEOFPRINTERS"
+objNetwork.SetDefaultPrinter "\\NAMEOFPRINTSERVER\NAMEOFPRINTER"
